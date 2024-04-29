@@ -57,6 +57,7 @@ def create_table_image(df, filename):
 
 
         plt.savefig(filename + '.png', dpi=300)
+        plt.show()
         plt.close()
 
 Endeksler = [
