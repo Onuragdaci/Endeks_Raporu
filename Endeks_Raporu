@@ -102,4 +102,4 @@ for i, (symbol, name) in enumerate(Endeksler):
 percent_change = all_data.iloc[-2:].pct_change().dropna() * 100
 percent_change = percent_change.T.round(2)
 print(percent_change)
-create_table_image(percent_change, 'Günlük_Endeks_Raporu'
+create_table_image(percent_change, 'Günlük_Endeks_Raporu')
